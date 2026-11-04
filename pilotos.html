@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Pilotos - Fórmula 1 (LMSGI_ud02)</title>
+    <!-- Enlace a la hoja de estilos externa -->
+    <link rel="stylesheet" href="estilos/estilos.css" />
+</head>
+<body>
+
+    <!-- CABECERA DE LA PÁGINA -->
+    <header>
+        <h1>Pilotos Destacados del Gran Premio de Mónaco</h1>
+        <p>Debido a su especial configuración con curvas cerradas y rectas cortas, lo que prima en él es la habilidad de los pilotos frente a la potencia de los motores.</p>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN (común para las 3 páginas) -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="circuito.html">Circuito</a></li>
+            <li><a href="pilotos.html">Pilotos</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- Sección con una tabla de pilotos -->
+        <section>
+            <h2>Parrilla y Escuderías</h2>
+            <p>Conoce a algunos de los pilotos más destacados:</p>
+            
+            <table border="1" id="tabla-pilotos">
+                <thead>
+                    <tr>
+                        <th>Piloto</th>
+                        <th>Dorsal</th>
+                        <th>Escudería</th>
+						<th>Año</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kimi Antonelli</td>
+                        <td>#12</td>
+                        <td>Mercedes-AMG PETRONAS</td>
+						<td>2026</td>
+                    </tr>
+                    <tr>
+                        <td>Max Verstappen</td>
+                        <td>#1</td>
+                        <td>Oracle Red Bull Racing</td>
+						<td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>Charles Leclerc</td>
+                        <td>#16</td>
+                        <td>Scuderia Ferrari</td>
+						<td>2024</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+		
+        <!-- IMAGEN  -->
+        <section>
+            <h2>Imagen Destacada</h2>
+            <img src="imagenes/Kimi_Antonelli.jpg" alt="Piloto Kimi Antonelli de Mercedes-AMG" width="600" />
+            <p><small>Fuente de la imagen: <a href="https://commons.wikimedia.org/wiki/File:Andrea_Kimi_Antonelli_(53838877535)_(cropped).jpg" target="_blank">Wikimedia Commons</a> (Licencia libre).</small></p>
+        </section>
+		
+        <!-- Lista de descripción -->
+        <section>
+            <h2>Glosario de Términos de los Pilotos</h2>
+            <p>Conceptos habituales en la trayectoria de un piloto de F1:</p>
+            
+            <dl>
+                <dt><strong>Pole Position</strong></dt>
+                <dd>Salir desde la primera posición en la parrilla tras la sesión de clasificación del sábado.</dd>
+                
+                <dt><strong>Podio</strong></dt>
+                <dd>Los tres primeros puestos de la carrera que suben a celebrar la victoria al finalizar el Gran Premio.</dd>
+            </dl>
+        </section>
+    </main>
+
+    <!-- ENLACES EXTERNOS OBLIGATORIOS -->
+    <aside>
+        <h4>Enlaces de Interés</h4>
+        <ul>
+            <li><a href="https://www.formula1.com/en/drivers" target="_blank">Sección Oficial de Pilotos de la F1</a></li>
+        </ul>
+    </aside>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>&copy; 2026 - Sitio Web de Fórmula 1 creado para BirtLH.</p>
+    </footer>
+
+
+	<!-- Botón para la Función 3 -->
+    <div style="text-align: center; margin: 15px;">
+        <button type="button" onclick="cambiarVisibilidadTabla()">Mostrar / Ocultar Tabla de Pilotos</button>
+    </div>
+
+    <!-- Enlace al archivo JS -->
+    <script src="funciones/funciones.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+/* --- ESTILOS GENERALES DEL SITIO WEB DE F1 --- */
+
+/* Estilo para el fondo de la página y la tipografía base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para las cabeceras principales */
+header {
+    background-color: #e10600; /* Color rojo clásico de la Fórmula 1 */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Estilo para el menú de navegación */
+nav {
+    background-color: #15151e;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul {
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline; /* Coloca los elementos del menú en horizontal */
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #00d2be; /* Cambia de color al pasar el ratón por encima */
+}
+
+/* Estilo para el contenido principal */
+main {
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Une los bordes de la tabla */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+}
+
+th {
+    background-color: #e10600;
+    color: white;
+}
+
+/* Estilo para las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+    margin: 10px 0;
+}
+
+/* Estilo para el pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    color: #666666;
+    font-size: 14px;
+}

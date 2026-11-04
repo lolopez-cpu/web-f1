@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Formula 1 (LMSGI_ud02)</title>
+    <!-- Enlace a la hoja de estilos externa -->
+    <link rel="stylesheet" href="estilos/estilos.css" />
+</head>
+<body>
+
+    <!-- CABECERA DE LA PÁGINA -->
+    <header>
+        <h1>Formula 1, Circuito de Mónaco</h1>
+        <p>Bienvenido al portal donde analizaremos la 8va fecha del calendario 2026 del Campeonato Mundial de Automovilismo.</p>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN (común para las 3 páginas) -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="circuito.html">Circuito</a></li>
+            <li><a href="pilotos.html">Pilotos</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL DE LA PÁGINA -->
+    <main>
+        <!-- Sección de bienvenida con imagen -->
+        <section>
+            <h2>Gran Premio de Mónaco</h2>
+            <p>La pista callejera más famosa y exigente del automovilismo.</p>
+            <p>Realizada el domingo 07 de junio 2026 a las 15:00hrs.</p>
+            <!-- Imagen con texto alternativo obligatorio -->
+            <img src="imagenes/monaco.jpg" alt="Circuito de monaco" width="600" />
+        </section>
+		
+        <!-- Tabla resumen obligatoria -->
+        <section>
+            <h3>Resumen de la Fecha</h3>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Detalle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ganador</td>
+                        <td>A. Antonelli #12</td>
+                    </tr>
+                    <tr>
+                        <td>Equipo</td>
+                        <td>Mercedez-AMG PETRONAS Formula One Team</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Formulario obligatorio con mailto -->
+        <section>
+            <h3>Contacto y Suscripción</h3>
+            <p>¿Quieres enviarnos tus comentarios sobre las carreras? Utiliza el siguiente formulario:</p>
+            
+            <form action="mailto:lolopez@ikaslea.birt.eus" method="POST">
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required />
+                </div>
+                <br>
+                <div>
+                    <label for="comentario">Mensaje:</label>
+                    <textarea id="comentario" name="comentario" rows="4" cols="30" required></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Enviar por correo" />
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- ENLACES EXTERNOS OBLIGATORIOS -->
+    <aside>
+        <h4>Enlaces de Interés</h4>
+        <ul>
+            <li><a href="https://www.formula1.com" target="_blank">Sitio Web Oficial de la F1</a></li>
+        </ul>
+    </aside>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>&copy; 2026 - Sitio Web de Fórmula 1 creado para BirtLH.</p>
+    </footer>
+	
+	<!-- Botón para ejecutar la Función 1 -->
+    <div style="text-align: center; margin: 15px;">
+        <button type="button" onclick="darBienvenida()">Mostrar Saludo</button>
+    </div>
+
+    <!-- Enlace al archivo de funciones JS externo -->
+    <script src="funciones/funciones.js"></script>
+
+</body>
+</html>

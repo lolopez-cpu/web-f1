@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Circuitos - Fórmula 1 (LMSGI_ud02)</title>
+    <!-- Enlace a la hoja de estilos externa -->
+    <link rel="stylesheet" href="estilos/estilos.css" />
+</head>
+<body>
+
+    <!-- CABECERA DE LA PÁGINA -->
+    <header>
+        <h1>El Circuito más Emblemático de la F1</h1>
+        <p>También conocido como Circuito de Montecarlo, alberga anualmente el Gran Premio de Mónaco de F1  y el E-prix de Mónaco de Fórmula E.</p>
+    </header>
+
+    <!-- MENÚ DE NAVEGACIÓN (común para las 3 páginas) -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="circuito.html">Circuito</a></li>
+            <li><a href="pilotos.html">Pilotos</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <section>
+            <h2>El Circuito en números</h2>
+            <p>El Gran Premio Louis Vuitton de Mónaco 2026 F1:</p>
+            
+            <!-- Lista ordenada obligatoria -->
+            <ol>
+                <li><strong>Distancia total de la carrera</strong> 260,286 kilómetros (recorridos en 78 vueltas).</li>
+                <li><strong>Número de curvas</strong> 19 curvas.</li>
+                <li><strong>Longitud total</strong> 3,3337 kilómetros por vuelta.</li>
+            </ol>
+        </section>
+
+        <!-- Sección de características con lista desordenada -->
+        <section>
+            <h2>Características de un Circuito Urbano</h2>
+            <p>Los circuitos callejeros como Mónaco presentan retos únicos:</p>
+            
+            <!-- Lista desordenada obligatoria -->
+            <ul>
+                <li>Ausencia de escapatorias amplias (muros muy cercanos).</li>
+                <li>Dificultad extrema para realizar adelantamientos.</li>
+                <li>Configuración aerodinámica orientada a máxima carga (downforce).</li>
+            </ul>
+
+            <!-- Imagen del mapa del circuito de Mónaco -->
+            <br>
+			<img src="imagenes/monaco.webp" alt="Circuito de monaco" width="600" />
+			<p><small>Fuente de la imagen: <a href="https://commons.wikimedia.org" target="_blank">Wikimedia Commons (Licencia CC)</a></small></p>
+        </section>
+    </main>
+
+    <!-- ENLACES EXTERNOS OBLIGATORIOS -->
+    <aside>
+        <h4>Más Información de Circuitos</h4>
+        <ul>
+            <li><a href="https://www.formula1.com/en/racing/2026.html" target="_blank">Calendario Oficial de la F1 2026</a></li>
+        </ul>
+    </aside>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <p>&copy; 2026 - Sitio Web de Fórmula 1 creado para BirtLH.</p>
+    </footer>
+
+	<!-- Botón y contenedor para la Función 2 -->
+    <div style="text-align: center; margin: 15px;">
+        <button type="button" onclick="mostrarFechaActual()">Ver Fecha y Hora Actual</button>
+        <p id="texto-fecha" style="font-weight: bold; margin-top: 10px;"></p>
+    </div>
+
+    <!-- Enlace al archivo JS -->
+    <script src="funciones/funciones.js"></script>
+</body>
+</html>
