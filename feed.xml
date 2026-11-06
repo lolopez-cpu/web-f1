@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+    <channel>
+        <!-- Obligatorias del canal -->
+        <title>Noticias de Fórmula 1 - BirtLH</title>
+        <link>https://lolopez-cpu.github.io/web-f1/index.html</link>
+        <description>Canal RSS con las últimas novedades del Gran Premio de Mónaco y circuitos de F1.</description>
+        <language>es</language>
+
+        <!-- 1er elemento (Novedad de la página de inicio) -->
+        <item>
+            <title>Bienvenida al Gran Premio de Mónaco</title>
+            <link>https://lolopez-cpu.github.io/web-f1/index.html</link>
+            <description>Consulta el resumen de la fecha del GP de Mónaco.</description>
+            <pubDate>Fri, 06 Nov 2026 15:00:00 GMT</pubDate>
+        </item>
+
+        <!-- 2do elemento (Novedad de la página de circuitos) -->
+        <item>
+            <title>Características del Circuito de Mónaco</title>
+            <link>https://lolopez-cpu.github.io/web-f1/circuito.html</link>
+            <description>Descubre los detalles técnicos de uno de los circuitos más emblemáticos.</description>
+            <pubDate>Fri, 06 Nov 2026 15:30:00 GMT</pubDate>
+        </item>
+
+    </channel>
+</rss>
